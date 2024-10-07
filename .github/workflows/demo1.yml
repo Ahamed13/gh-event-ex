@@ -4,6 +4,7 @@ on:
     types:
       - opened
   workflow_dispatch:
+<<<<<<< HEAD
   push:
     branches:
       - main
@@ -11,6 +12,9 @@ on:
       - 'fest/**' # example feat/new feat/new/button
     paths-ignore:
       - './.github/workflows/*'
+=======
+
+>>>>>>> dev
 jobs:
   deploy:
     runs-on: ubuntu-latest
